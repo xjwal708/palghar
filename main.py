@@ -67,12 +67,3 @@ else:
 scheduler = AsyncIOScheduler()
 CMD_HELP = {}
 START_TIME = datetime.now()
-
-if bot1:
-    bot1.start()
-    bot1.join_chat("XnKiT_K")
-
-idle()
-
-print("🎉 Successfully Deployed LiSa 🎉")
-print("Enjoy! LiSa Userbot Made With 💙 By (c)XnKiT")
