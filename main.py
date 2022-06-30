@@ -35,7 +35,7 @@ if not API_HASH:
 if ALIVE_IMG:
     ALIVE_PIC = ALIVE_IMG
 else: 
-    ALIVE_PIC = 'https://te.legra.ph/file/8067186d2bd00c5e1a36a.mp4'
+    ALIVE_PIC = 'https://te.legra.ph/file/a7c82fa1cb4c41097dadd.jpg'
 
 if MONGO_DB:
     MONGO_DB = MONGO_DB
