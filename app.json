@@ -1,8 +1,7 @@
 {
-    "name": "LiSa",
-    "description": "Tнє Smoothest And Fastest Bot Made By ©ANKIT™. Made with Love And By Python Language With Hardwork... 💙!",
-    "logo": "https://te.legra.ph/file/6ec5599d83ef556279b28.jpg",
-    "repository": "https://github.com/XnKiTK/LiSa",
+    "name": "PALGHAR",
+    "description": "Tнє Smoothest And Fastest Bot Made By Team Palghar". Made with Love And By Python Language With Hardwork... 💙!",
+    "repository": "https://github.com/xjwal708/palghar",
     "env": {
         "STRING_SESSION1": {
             "description": "pyrogram string session here",
