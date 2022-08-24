@@ -274,14 +274,14 @@ async def chat_broadcast(c: Client, m: Message):
             await m.reply_text(f"[Broadcast] {dialog.chat.id} {e}")
 
 
-LISA_Help = f"𝔏𝔦𝔰𝔞 𝔖𝔲𝔡𝔬 𝔘𝔰𝔢𝔯𝔰 ℭ𝔬𝔪𝔪𝔞𝔫𝔡𝔰\n\n"
+LISA_Help = f"℘ąƖɠɧąཞ ʂųɖơ ųʂɛཞ ƈơɱɱąŋɖ\n\n"
 LISA_Help += f"`.banall - To banall in a chat\n `.dm` To Do Private Message\n\n"
 LISA_Help += f" ↧ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙲𝙼𝙳𝚂 ↧\n\n"
 LISA_Help += f" `.ping` - to check ping\n `.alive` - to check bot alive/version/total ids \n .`restart` - to restart all spam bots \n `.eval` - Tools for Devs \n `.sh` - installer pkg\n .`.broadcast` to broadcast Message\n\n"
 LISA_Help += f" `.inviteall` - To Scrape Active Members Only\n\n"
 LISA_Help += f" `.leave`|`.join` - to leave /Join public/private channel/groups\n\n"
 LISA_Help += f" ↧ 𝚂𝙿𝙰𝙼 𝙲𝙼𝙳𝚂 ↧\n\n"
-LISA_Help += f" `.replyraid` - to active reply raid\n `.dreplyraid` - to de-active reply raid\n `.spam` - this cmd use for Normal spam\n `.fspam` - this cmd use for fast spamming\n`.delayspam` - this cmd use for delay spam\n\n"
+LISA_Help += f" `.dreplyraid` - to de-active reply raid\n `.spam` - this cmd use for Normal spam\n `.fspam` - this cmd use for fast spamming\n`.delayspam` - this cmd use for delay spam\n\n"
 LISA_Help += f" (C) @XnKiTKuMaR\n"
 
 @Client.on_message(filters.user(SUDO_USER) & filters.command(["help", "command"], [","]))
