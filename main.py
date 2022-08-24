@@ -63,5 +63,5 @@ if bot1:
 
 idle()
 
-print("🎉 Successfully Deployed LiSa 🎉")
-print("Enjoy! LiSa Pyro Version")
+print("🎉 Successfully Deployed Palghar Project 🎉")
+print("Palghar Project is ready do .alive or .ping to see the project is ready or not")
