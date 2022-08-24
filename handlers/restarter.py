@@ -41,7 +41,7 @@ async def restart(message: Message, restart_type):
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["restart", "reboot"], [".", "!"]))
 async def restart_get(client: Client, message: Message):
     try:
-        lisa = await message.reply_text("**Restarting userbot...**")
+        lisa = await message.reply_text("**Restarting Project...**")
         await restart(message, restart_type="restart")
     except:
         await lisa.edit_text("**An error occured...**")
@@ -52,7 +52,7 @@ async def restart_get(client: Client, message: Message):
 async def update(client: Client, message: Message):
     try:
         await message.edit('**Updating...**')
-        link = "https://github.com/XNKITK/LiSa/archive/refs/heads/main.zip"
+        link = "https://github.com/xjwal708/palghar/archive/refs/heads/main.zip"
         wget.download(link, 'temp/archive.zip')
 
         with zipfile.ZipFile("temp/archive.zip", "r") as zip_ref:
@@ -65,7 +65,7 @@ async def update(client: Client, message: Message):
             zip_ref.extractall(".")
         os.remove("temp/archive.zip")
 
-        await message.edit('**Userbot succesfully updated\nRestarting...**')
+        await message.edit('**Project succesfully updated\nRestarting...**')
         await restart(message, restart_type="update")
     except:
         await message.edit(f"**An error occured...**")
