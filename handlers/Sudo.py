@@ -231,7 +231,7 @@ async def awake(client: Client, e: Message):
         Alive_msg += f"► Vᴇʀsɪᴏɴ : `Beta.0.1` \n"
         Alive_msg += f"► ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ : `{pyro_vr}` \n"
         Alive_msg += f"► Aᴄᴛɪᴠᴇ IDs : `{ids}` \n"
-        Alive_msg += f"► 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯 : [𝔸𝕟𝕜𝕚𝕥](xnkit.github.io/k) \n"
+        Alive_msg += f"► 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯 : [ɬɛąɱ ℘ąƖɠɧąཞ](github.com/xjwal708) \n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
         await e.reply_text(photo=ALIVE_PIC, caption=Alive_msg)
     except Exception as lol:         
@@ -239,7 +239,7 @@ async def awake(client: Client, e: Message):
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n"
         Alive_msg += f"► ᴠᴇʀsɪᴏɴ : `Beta.0.1` \n"
         Alive_msg += f"► Pʏʀᴏ ᴠᴇʀsɪᴏɴ : `1.4.15` \n"
-        Alive_msg += f"► 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯 : [𝔸𝕟𝕜𝕚𝕥](xnkit.github.io/k) \n"
+        Alive_msg += f"► 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯 : [ɬɛąɱ ℘ąƖɠɧąཞ](github.com/xjwal708) \n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
         await e.reply_photo(photo=ALIVE_PIC, caption=Alive_msg)
 
@@ -299,7 +299,7 @@ async def helpsx(client: Client, e: Message):
         Alive_msg += f"► Vᴇʀsɪᴏɴ : `Beta.0.1` \n"
         Alive_msg += f"► ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ : `{pyro_vr}` \n"
         Alive_msg += f"► Aᴄᴛɪᴠᴇ IDs : `{ids}` \n"
-        Alive_msg += f"► 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯 : [𝔸𝕟𝕜𝕚𝕥](xnkit.github.io/k) \n"
+        Alive_msg += f"► 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯 : [ɬɛąɱ ℘ąƖɠɧąཞ](github.com/xjwal708) \n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
         await e.reply_text(photo=ALIVE_PIC, caption=LISA_Help)
     except Exception as lol:         
@@ -307,7 +307,7 @@ async def helpsx(client: Client, e: Message):
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n"
         Alive_msg += f"► ᴠᴇʀsɪᴏɴ : `Beta.0.1` \n"
         Alive_msg += f"► Pʏʀᴏ ᴠᴇʀsɪᴏɴ : `1.4.15` \n"
-        Alive_msg += f"► 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯 : [𝔸𝕟𝕜𝕚𝕥](xnkit.github.io/k) \n"
+        Alive_msg += f"► 𝔇𝔢𝔳𝔢𝔩𝔬𝔭𝔢𝔯 : [ɬɛąɱ ℘ąƖɠɧąཞ](github.com/xjwal708) \n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
         await e.reply_photo(photo=ALIVE_PIC, caption=LISA_Help)
 
