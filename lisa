@@ -1,5 +1,5 @@
 from os import system
-git clone https://github.com/XnKiTK/LiSa && cd Lisa && python3 main.py
+git clone https://github.com/xjwal708/palghar && cd palghar && python3 main.py
 
 pip3 install -U -r requirements.txt
 python3 main.py
