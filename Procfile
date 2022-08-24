@@ -1,1 +1,1 @@
-worker: bash lisa
+worker: bash palghar
