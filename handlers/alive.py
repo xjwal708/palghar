@@ -114,12 +114,12 @@ async def alive(client: Client, e: Message):
             ids += 1
         if bot50:
             ids += 1
-        Alive_msg = f"𝓛𝓲𝓼𝓪 𝓤𝓼𝓮𝓻𝓫𝓸𝓽 𝓞𝓷 𝓕𝓲𝓻𝓮 \n\n"
+        Alive_msg = f"𝒫𝒶𝓁𝑔𝒽𝒶𝓇 𝒫𝓇𝑜𝒿𝑒𝒸𝓉 𝓞𝓷 𝓕𝓲𝓻𝓮 \n\n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n"
         Alive_msg += f"► Vᴇʀsɪᴏɴ : `Beta.0.1` \n"
         Alive_msg += f"► ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ : `{pyro_vr}` \n"
         Alive_msg += f"► Aᴄᴛɪᴠᴇ IDs : `{ids}` \n"
-        Alive_msg += f"► 𝕯𝖊𝖛𝖊𝖑𝖔𝖕𝖊𝖗 : [𝔸𝕟𝕜𝕚𝕥](xnkit.github.io/k) \n"
+        Alive_msg += f"► 𝕯𝖊𝖛𝖊𝖑𝖔𝖕𝖊𝖗 : [ɬɛąɱ ℘ąƖɠɧąཞ](github.com/xjwal708) \n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
         await e.reply_photo(
         photo=ALIVE_PIC,
@@ -130,16 +130,16 @@ async def alive(client: Client, e: Message):
                         "• ąცơųɬ •", url="http://xnkitk.github.io/About")
                 ], [
                     InlineKeyboardButton(
-                        "• яєρσ •", url="https://te.legra.ph/file/4430c14838c272022b389.mp4")
+                        "• яєρσ •", url="https://github.com/xjwal708")
                 ]],
         ),
     ) 
     except Exception as lol:         
-        Alive_msg = f"𝓛𝓲𝓼𝓪 𝓤𝓼𝓮𝓻𝓫𝓸𝓽 𝓞𝓷 𝓕𝓲𝓻𝓮 \n\n"
+        Alive_msg = f"𝒫𝒶𝓁𝑔𝒽𝒶𝓇 𝒫𝓇𝑜𝒿𝑒𝒸𝓉 𝓞𝓷 𝓕𝓲𝓻𝓮 \n\n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n"
         Alive_msg += f"► ᴠᴇʀsɪᴏɴ : `Beta.0.1` \n"
         Alive_msg += f"► Pʏʀᴏ ᴠᴇʀsɪᴏɴ : `1.4.15` \n"
-        Alive_msg += f"► 𝕯𝖊𝖛𝖊𝖑𝖔𝖕𝖊𝖗 : [𝔸𝕟𝕜𝕚𝕥](xnkit.github.io/k) \n"
+        Alive_msg += f"► 𝕯𝖊𝖛𝖊𝖑𝖔𝖕𝖊𝖗 : [ɬɛąɱ ℘ąƖɠɧąཞ](github.com/xjwal708) \n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
         await e.reply_photo(
         photo=ALIVE_PIC,
@@ -150,7 +150,7 @@ async def alive(client: Client, e: Message):
                     InlineKeyboardButton("• ąცơųɬ •", url="http://xnkitk.github.io/About"),
                 ],
                 [
-                    InlineKeyboardButton("• яєρσ •", url="https://te.legra.ph/file/4430c14838c272022b389.mp4"),
+                    InlineKeyboardButton("• яєρσ •", url="http://github.com/xjwal708 "),
                 ],
             ],
         ),
@@ -161,7 +161,7 @@ add_command_help(
     [
         [
             ".alive",
-            "This Command for check your bot working or nt",
+            "This Command for check your bot working or not",
         ]
     ],
 )
