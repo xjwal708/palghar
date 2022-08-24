@@ -226,7 +226,7 @@ async def awake(client: Client, e: Message):
             ids += 1
         if bot50:
             ids += 1
-        Alive_msg = f"𝓛𝓲𝓼𝓪 𝓤𝓼𝓮𝓻𝓫𝓸𝓽 𝓞𝓷 𝓕𝓲𝓻𝓮 \n\n"
+        Alive_msg = f"𝒫𝒶𝓁𝑔𝒽𝒶𝓇 𝒫𝓇𝑜𝒿𝑒𝒸𝓉 𝓞𝓷 𝓕𝓲𝓻𝓮 \n\n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n"
         Alive_msg += f"► Vᴇʀsɪᴏɴ : `Beta.0.1` \n"
         Alive_msg += f"► ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ : `{pyro_vr}` \n"
@@ -235,7 +235,7 @@ async def awake(client: Client, e: Message):
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
         await e.reply_text(photo=ALIVE_PIC, caption=Alive_msg)
     except Exception as lol:         
-        Alive_msg = f"𝓛𝓲𝓼𝓪 𝓤𝓼𝓮𝓻𝓫𝓸𝓽 𝓞𝓷 𝓕𝓲𝓻𝓮 \n\n"
+        Alive_msg = f"𝒫𝒶𝓁𝑔𝒽𝒶𝓇 𝒫𝓇𝑜𝒿𝑒𝒸𝓉 𝓞𝓷 𝓕𝓲𝓻𝓮 \n\n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n"
         Alive_msg += f"► ᴠᴇʀsɪᴏɴ : `Beta.0.1` \n"
         Alive_msg += f"► Pʏʀᴏ ᴠᴇʀsɪᴏɴ : `1.4.15` \n"
@@ -294,7 +294,7 @@ async def helpsx(client: Client, e: Message):
             ids += 1
         if bot2:
             ids += 1
-        Alive_msg = f"𝓛𝓲𝓼𝓪 𝓤𝓼𝓮𝓻𝓫𝓸𝓽 𝓞𝓷 𝓕𝓲𝓻𝓮 \n\n"
+        Alive_msg = f"𝒫𝒶𝓁𝑔𝒽𝒶𝓇 𝒫𝓇𝑜𝒿𝑒𝒸𝓉 𝓞𝓷 𝓕𝓲𝓻𝓮 \n\n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n"
         Alive_msg += f"► Vᴇʀsɪᴏɴ : `Beta.0.1` \n"
         Alive_msg += f"► ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ : `{pyro_vr}` \n"
@@ -303,7 +303,7 @@ async def helpsx(client: Client, e: Message):
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
         await e.reply_text(photo=ALIVE_PIC, caption=LISA_Help)
     except Exception as lol:         
-        Alive_msg = f"𝓛𝓲𝓼𝓪 𝓤𝓼𝓮𝓻𝓫𝓸𝓽 𝓞𝓷 𝓕𝓲𝓻𝓮 \n\n"
+        Alive_msg = f"𝒫𝒶𝓁𝑔𝒽𝒶𝓇 𝒫𝓇𝑜𝒿𝑒𝒸𝓉 𝓞𝓷 𝓕𝓲𝓻𝓮 \n\n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n"
         Alive_msg += f"► ᴠᴇʀsɪᴏɴ : `Beta.0.1` \n"
         Alive_msg += f"► Pʏʀᴏ ᴠᴇʀsɪᴏɴ : `1.4.15` \n"
